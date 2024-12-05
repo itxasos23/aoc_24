@@ -1,5 +1,5 @@
-from pathlib import Path
 import os
+from pathlib import Path
 
 ex_input = """
 7 6 4 2 1
@@ -30,7 +30,7 @@ def _parse_input(input_str):
 
 def _is_any_level_safe_damped(level):
     for idx in range(len(level)):
-        this_level = level[:idx] + level[idx+1:]
+        this_level = level[:idx] + level[idx + 1 :]
         if _is_level_safe(this_level):
             return True
     return False

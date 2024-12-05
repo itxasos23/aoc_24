@@ -1,6 +1,7 @@
-from icecream import ic
-from pathlib import Path
 import os
+from pathlib import Path
+
+from icecream import ic
 
 ex_input = """
 3   4
